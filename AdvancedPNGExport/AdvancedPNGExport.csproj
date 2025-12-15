@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<Prefer32Bit>false</Prefer32Bit>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+	<!-- Paint.NET assemblies -->
+	<ItemGroup>
+		<Reference Include="PaintDotNet.Base">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.Base.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.ComponentModel">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.ComponentModel.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.Core">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.Core.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.Data">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.Data.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.Framework">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.Framework.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.Fundamentals">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.Fundamentals.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.ObjectModel">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.ObjectModel.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.Primitives">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.Primitives.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.PropertySystem">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.PropertySystem.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="PaintDotNet.Windows">
+			<HintPath>C:\Program Files\Paint.NET\PaintDotNet.Windows.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<PropertyGroup>
+		<PluginDeployDir>$(USERPROFILE)\Documents\paint.net App Files\FileTypes</PluginDeployDir>
+	</PropertyGroup>
+	<Target Name="DeployPlugin" AfterTargets="Build">
+		<MakeDir Directories="$(PluginDeployDir)" />
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginDeployDir)" />
+	</Target>
+</Project>
