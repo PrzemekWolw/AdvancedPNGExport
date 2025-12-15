@@ -1,8 +1,9 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.9.34728.123
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedPNGExport", "AdvancedPNGExport\AdvancedPNGExport.csproj", "{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}"
+Project("{e53d3a7e-77cb-4739-82c7-e80a1e951a4c}") = "AdvancedPNGExport_legacy", "AdvancedPNGExport\AdvancedPNGExport.csproj", "{ccb389db-c50d-448b-a3f3-93e18317583e}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|Any CPU.Build.0 = Release|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ccb389db-c50d-448b-a3f3-93e18317583e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ccb389db-c50d-448b-a3f3-93e18317583e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ccb389db-c50d-448b-a3f3-93e18317583e}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ccb389db-c50d-448b-a3f3-93e18317583e}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {b51c404e-b831-418b-aa31-5cab04b740db}
+		SolutionGuid = {33c9f9b4-4089-47e8-a799-52988a703d7a}
 	EndGlobalSection
 EndGlobal
