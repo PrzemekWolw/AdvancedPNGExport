@@ -7,25 +7,13 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|ARM64 = Debug|ARM64
-		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
-		Release|ARM64 = Release|ARM64
-		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|Any CPU.ActiveCfg = Release|Any CPU
 		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|Any CPU.Build.0 = Release|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Debug|x64.Build.0 = Debug|Any CPU
 		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|ARM64.ActiveCfg = Release|ARM64
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|ARM64.Build.0 = Release|ARM64
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|x64.ActiveCfg = Release|Any CPU
-		{DABEDA23-35A7-46BE-8BAB-4BFE855FDE38}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
